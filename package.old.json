@@ -1,0 +1,15 @@
+{
+  "name": "congregapp-ejs",
+  "version": "1.0.0",
+  "description": "App para congregaciones",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "José Guerra",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.0.1"
+  }
+}

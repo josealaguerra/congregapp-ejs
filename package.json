@@ -4,12 +4,17 @@
   "description": "App para congregaciones",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ./main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rebuild": "./node_modules/.bin/electron-rebuild",
+    "deploy": "node ./config/firebase-deploy.js"
   },
   "author": "José Guerra",
   "license": "ISC",
   "devDependencies": {
     "electron": "^13.0.1"
+  },
+  "dependencies": {
+    "electron-firebase": "^1.2.0"
   }
 }
